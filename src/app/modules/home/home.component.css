@@ -1,0 +1,162 @@
+img {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+nav {
+  height: 10vh;
+  background-color: var(--white);
+  box-shadow: 0px 5px 5px rgba(15, 15, 15, 0.3);
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+  .box {
+    display: flex;
+    align-items: center;
+
+    .flag-button {
+      border: none;
+      background-color: transparent;
+      padding: 0;
+      align-items: center;
+      display: flex;
+
+      .other-language {
+        background-color: transparent;
+        border: none;
+        cursor: pointer;
+        height: 1.1rem;
+      }
+    }
+
+    .logo {
+      height: 7.2vh;
+      margin: 10px 1.5rem 7px;
+      cursor: pointer;
+    }
+
+    .link-button {
+      padding: 0.5rem 1rem;
+      margin: 0 0.8rem;
+      text-decoration: none;
+      font-size: 1.3rem;
+      border-radius: 0.5rem;
+      position: relative;
+      cursor: pointer;
+
+      question-circle {
+        font-size: 1.5rem;
+      }
+
+      &:after {
+        content: "";
+        position: absolute;
+        width: 100%;
+        transform: scaleX(0);
+        height: 2px;
+        bottom: 0;
+        left: 0;
+        transform-origin: bottom right;
+        transition: transform 0.25s ease-out;
+      }
+
+      &:hover:after {
+        transform: scaleX(1);
+        transform-origin: bottom left;
+      }
+
+      &.first-button {
+        color: #1f1489;
+        -webkit-animation: 1.5s ease 0s 1 slide-and-fade-in-1;
+        animation: 1.5s ease 0s 1 slide-and-fade-in-1;
+
+        &:after {
+          background-color: #1f1489;
+        }
+      }
+
+      &.second-button {
+        color: #1f1489;
+        -webkit-animation: 1.5s ease 0s 1 slide-and-fade-in-2;
+        animation: 1.5s ease 0s 1 slide-and-fade-in-2;
+
+        &:after {
+          background-color: #1f1489;
+        }
+      }
+
+      &.third-button {
+        color: #1f1489;
+        -webkit-animation: 1.5s ease 0s 1 slide-and-fade-in-3;
+        animation: 1.5s ease 0s 1 slide-and-fade-in-3;
+
+        &:after {
+          background-color: #1f1489;
+        }
+      }
+
+      &.fourth-button {
+        color: #579c9c;
+        -webkit-animation: 1.5s ease 0s 1 slide-and-fade-in-4;
+        animation: 1.5s ease 0s 1 slide-and-fade-in-4;
+
+        &:after {
+          background-color: #579c9c;
+        }
+      }
+
+      &.fifth-button {
+        color: #1f1489;
+        -webkit-animation: 1.5s ease 0s 1 slide-and-fade-in-5;
+        animation: 1.5s ease 0s 1 slide-and-fade-in-5;
+
+        &:after {
+          background-color: #1f1489;
+        }
+      }
+    }
+
+    .connection {
+      margin: 0 1rem;
+      text-decoration: none;
+      color: var(--dark-blue);
+      font-size: 1.2rem;
+    }
+    .connection:hover {
+      cursor: pointer;
+    }
+
+    #profil {
+      margin: 0 1rem;
+      text-decoration: none;
+      color: var(--dark-blue);
+      font-size: 1.2rem;
+    }
+  }
+
+  ::ng-deep.p-button-rounded.p-button-info {
+    button {
+      width: 11.5rem;
+      justify-content: space-between;
+      background-color: var(--white);
+      color: var(--dark-blue);
+      font-size: 1.1rem;
+      border: none;
+    }
+
+    &:hover button {
+      background-color: #e7e7e7;
+      color: var(--dark-blue);
+    }
+  }
+}
+
+::ng-deep.slide-menu-header .p-slidemenu-content {
+  height: 140px !important;
+}
+
+::ng-deep.slide-menu-header-admin .p-slidemenu-content {
+  height: 180px !important;
+}

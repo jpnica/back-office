@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\AngularAuth1.props" />
+</Project>
