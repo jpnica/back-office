@@ -1,5 +1,5 @@
 # BackOffice
-
+https://cdn.botpress.cloud/webchat/v2.1/shareable.html?botId=5c6e501c-063b-4330-a549-3535d3f1075b
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.2.1.
 
 ## Development server
