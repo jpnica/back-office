@@ -1,7 +1,8 @@
 # BackOffice
-https://cdn.botpress.cloud/webchat/v2.1/shareable.html?botId=5c6e501c-063b-4330-a549-3535d3f1075b
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.2.1.
 
+https://cdn.botpress.cloud/webchat/v2.2/shareable.html?configUrl=https://files.bpcontent.cloud/2024/10/21/16/20241021165919-XWUWF1Z5.json
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
