@@ -8,8 +8,8 @@ https://cdn.botpress.cloud/webchat/v2.2/shareable.html?configUrl=https://files.b
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
 bbjkjb
 
-## Code scaffolding
-
+## Code scaffolding 1
+https://cdn.botpress.cloud/webchat/v2.2/shareable.html?configUrl=https://files.bpcontent.cloud/2024/10/22/22/20241022222036-RQEOZLCJ.json
 Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
 ## Build
